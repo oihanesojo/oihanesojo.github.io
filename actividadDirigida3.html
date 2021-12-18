@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title> Actividades Dirigida 3</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sticky-footer-navbar/">
+
+      <link rel="stylesheet" href="sticky-footer-navbar.css">
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+  <body class="d-flex flex-column h-100">
+    
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://es.linkedin.com/in/oihane-sojo-garrof%C3%A9-7b65a91b0">Oihane Sojo Garrofé</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+               <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="actividadDirigida1.html">Actividad Dirigida 1</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="actividadDirigida2.html">Actividad Dirigida 2</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="actividadDirigida3.html">Actividad Dirigida 3</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="actividadDirigida4.html">Actividad Dirigida 4</a>
+          </li>
+        
+        </ul>
+ 
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+  <div class="container">
+    <h1 class="mt-5">Actividad Dirigida 3</h1>
+      
+      <p>Los datos que aparecen a continuación son sacados del Proyecto TRESCA en concreto de https://github.com/flowsta/nebrija-2021/blob/main/data/tendencias-millonarias-nebrija.csv </p>
+      <p>Hay 3 variables en juego, en primer lugar, los nombres de los candidatos a la presidencia estadounidense: Joe Biden, Donald Trump, Kamala Harris y Mike Pence. El número de tuits que eran publicados cada día usando el nombre de los candidatos, y por último la fecha en la que eran publicados.</p>
+      <p>Para una limpieza de datos he usado la aplicación Open Refine, cambiando el “carácter encoding” a un UTF-8 siendo esta la codificación universal. Después añadí las etiquetas: USA y elecciones y crear proyecto. </p>
+      <p>
+La siguiente tarea consistía en editar las celdas para que reconociese los datos que iba a estar tratando. Edit cells, common transforms y date (en la segunda columna donde iban las fechas). Edit cells, common transforms y number en la columna de los tuits.</p>
+     <p>  <img height="500px" src="imagenes/openRefine.png"></p>
+
+
+<p>El gráfico creado y seleccionado en Datawrapper ha sido el de dispersión debido a que al tener tantos datos recopilados es la manera más visual de llegar a entenderlo, en este se pueden ver los meses como eje X y el número de tuits en millones como eje Y, representando la variable dependiente. Al seleccionar cada uno de los puntos sale el nombre del candidato mencionado durante el proceso de las elecciones presidenciales.</p>
+
+    <iframe title="Las elecciones estadounidenses via Twitter " aria-label="Scatter Plot" id="datawrapper-chart-hjyT1" src="https://datawrapper.dwcdn.net/hjyT1/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="600"></iframe>
+  </div>
+</main>
+
+
+
+      
+  </body>
+</html>
